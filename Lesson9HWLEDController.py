@@ -6,7 +6,7 @@ DutyCycleUpperLimit = 100.0/1.0
 DutyCycleLowerLimit = 0.0/1.0
 Frequency = 100
 Steps = 8.0
-Increment = DutyCycleUpperLimit-DutyCycleLowerLimit/Steps
+Increment = (DutyCycleUpperLimit-DutyCycleLowerLimit) / Steps
 Delay = .1
 
 LEDPin = 37
